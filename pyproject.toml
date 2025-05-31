@@ -90,10 +90,6 @@ include = ["django_afip*"]
 [build-system]
 requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
 
-[tool.setuptools_scm]
-write_to = "django_afip/version.py"
-version_scheme = "no-guess-dev"
-
 [tool.pytest.ini_options]
 addopts = """
   --reuse-db
